@@ -5,9 +5,15 @@
 			"style": {
 				"navigationBarTitleText": ""
 			}
+		},
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": ""
+			}
 		}
-	    ,{
-            "path" : "pages/shoucang/shoucang",
+        ,{
+            "path" : "pages/index/me",
             "style" : {}
         }
     ],
