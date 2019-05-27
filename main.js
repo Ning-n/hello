@@ -7,6 +7,9 @@ Vue.component('cu-custom',cuCustom)
 import pageHome from './pages/index/home.vue'
 Vue.component('page-Home',pageHome)
 
+import pageme from './pages/index/me.vue'
+Vue.component('page-me',pageme)
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

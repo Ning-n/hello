@@ -4,7 +4,7 @@
 		<page-Home v-if="pageCur=='home'">首页</page-Home>
 		<view v-if="pageCur=='sc'">收藏</view>
 		<view v-if="pageCur=='xx'">消息</view>
-		<view v-if="pageCur=='me'">我的</view>
+		<page-me v-if="pageCur=='me'">我的</page-me>
 
 		<view class="cu-bar tabbar bg-white foot">
 			<view class="action" @tap="TabChange" data-name="home">
