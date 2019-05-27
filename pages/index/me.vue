@@ -1,29 +1,63 @@
 <template>
 	<view>
 		<view class="cu-card dynamic">
-			<view class="cu-item shadow">
+			<view class="shadow">
 				<view class="cu-list menu-avatar">
-					<view class="cu-item">
+					<view class="cu-item" style="height: 180upx;">
 						<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
 						<view class="content flex-sub">
-							<view>凯尔</view>
+							<view>宁宁</view>
 							<view class="text-gray text-sm flex justify-between">
-								2019年12月3日
+								微信号：Ning-n
 							</view>
 						</view>
 					</view>
 				</view>
-				<view class="text-content">
-					折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将由我来终结！
+			</view>
+		</view>
+		
+		<view class="cu-list menu margin-top">
+			<view class="cu-item arrow">
+				<view class="content">
+					<text class="cuIcon-pay text-green"></text>
+					<text class="text-black">支付</text>
 				</view>
 			</view>
-		</view>
-		<view class="cu-bar bg-white solid-bottom">
-			<view class="action">
-				<text class="cuIcon-titles text-blue"></text> 文章
+			
+			<view class="cu-item arrow margin-top">
+				<view class="content">
+					<text class="cuIcon-like text-pink"></text>
+					<text class="text-black">收藏</text>
+				</view>
+			</view>			
+			<view class="cu-item arrow">
+				<view class="content">
+					<text class="cuIcon-discover text-blue"></text>
+					<text class="text-black">发现</text>
+				</view>
 			</view>
-			<view class="action"></view>
+			<view class="cu-item arrow">
+				<view class="content">
+					<text class="cuIcon-pic text-green"></text>
+					<text class="text-black">图片</text>
+				</view>
+			</view>
+			<view class="cu-item arrow">
+				<view class="content">
+					<text class="cuIcon-emojifill text-orange"></text>
+					<text class="text-black">图片</text>
+				</view>
+			</view>
+			
+			<view class="cu-item arrow margin-top">
+				<view class="content">
+					<text class="cuIcon-settings text-blue"></text>
+					<text class="text-black">收藏</text>
+				</view>
+			</view>	
 		</view>
+
+
 	</view>
 
 
