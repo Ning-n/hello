@@ -48,25 +48,18 @@
 			</view>
 		</view>
 
-		<view class="cu-capsule round" style="margin-left: 95upx;">
-			<view class='cu-tag bg-blue '>
-				<text class='cuIcon-likefill'></text>
-			</view>
-			<view class="cu-tag line-blue">
-				34
-			</view>
-		</view>
+		
 
 		<view class="cu-bar bg-white solid-bottom" style="margin-top: 25upx;">
 			<view class="action">
 				<text class="cuIcon-titles text-blue"></text> 文章
 			</view>
 			<!-- <view>
-				<!--打开新链接-->
+				<!-打开新链接-->
 				<!-- <a href="http://www.imooc.com" title="点击进入慕课网" target="_blank">点击</a>
 			</view> -->
-			<view class="action">
-			</view>
+			<!--<view class="action">
+			</view>-->
 		</view>
 
 
