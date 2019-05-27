@@ -18,9 +18,16 @@
 				</view>
 			</view>
 		</view>
+		<view class="cu-bar bg-white solid-bottom">
+			<view class="action">
+				<text class="cuIcon-titles text-blue"></text> 文章
+			</view>
+			<view class="action"></view>
+		</view>
+
 	</view>
-	
-	
+
+
 </template>
 
 <script>
