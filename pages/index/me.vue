@@ -24,7 +24,6 @@
 			</view>
 			<view class="action"></view>
 		</view>
-
 	</view>
 
 
