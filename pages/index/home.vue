@@ -50,7 +50,7 @@
 
 		
 
-		<view class="cu-bar bg-white solid-bottom" style="margin-top: 25upx;">
+		<view class="cu-bar bg-white solid-bottom" style="margin-top: 15upx;">
 			<view class="action">
 				<text class="cuIcon-titles text-blue"></text> 文章
 			</view>
