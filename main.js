@@ -10,6 +10,9 @@ Vue.component('page-Home',pageHome)
 import pageme from './pages/index/me.vue'
 Vue.component('page-me',pageme)
 
+import pagenews from './pages/index/news.vue'
+Vue.component('page-news',pagenews)
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

@@ -48,7 +48,7 @@
 			</view>
 		</view>
 
-		
+
 
 		<view class="cu-bar bg-white solid-bottom" style="margin-top: 15upx;">
 			<view class="action">
@@ -56,7 +56,7 @@
 			</view>
 			<!-- <view>
 				<!-打开新链接-->
-				<!-- <a href="http://www.imooc.com" title="点击进入慕课网" target="_blank">点击</a>
+			<!-- <a href="http://www.imooc.com" title="点击进入慕课网" target="_blank">点击</a>
 			</view> -->
 			<!--<view class="action">
 			</view>-->
@@ -64,7 +64,10 @@
 
 
 
-		<view class="cu-card article">
+		<view class="cu-card article no-card margin-top">
+			
+			
+			
 			<view class="cu-item shadow">
 				<view class="title">
 					<view class="text-cut">无意者 烈火焚身: 以正义的烈火拔出黑暗。我有自己的正义，见证至高的烈火吧。</view>
@@ -80,8 +83,10 @@
 					</view>
 				</view>
 			</view>
+			
+			
 
-			<view class="cu-item shadow">
+			<view class="cu-item shadow solid-top">
 				<view class="title">
 					<view class="text-cut">无意者 烈火焚身: 以正义的烈火拔出黑暗。我有自己的正义，见证至高的烈火吧。</view>
 				</view>
@@ -96,10 +101,13 @@
 					</view>
 				</view>
 			</view>
+			
+			
+			
 
 			<view style="height:90rpx"></view>
 		</view>
-	</view>	
+	</view>
 </template>
 
 <script>

@@ -4,7 +4,7 @@
 			<view class="shadow">
 				<view class="cu-list menu-avatar">
 					<view class="cu-item" style="height: 180upx;">
-						<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
+						<view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
 						<view class="content flex-sub">
 							<view>宁宁</view>
 							<view class="text-gray text-sm flex justify-between">
@@ -32,7 +32,7 @@
 			</view>			
 			<view class="cu-item arrow">
 				<view class="content">
-					<text class="cuIcon-discover text-blue"></text>
+					<text class="cuIcon-discover text-purple"></text>
 					<text class="text-black">发现</text>
 				</view>
 			</view>

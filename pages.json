@@ -16,6 +16,10 @@
             "path" : "pages/index/me",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/news",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
