@@ -20,6 +20,10 @@
             "path" : "pages/index/news",
             "style" : {}
         }
+		,{
+		    "path" : "pages/index/sc",
+		    "style" : {}
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -13,6 +13,9 @@ Vue.component('page-me',pageme)
 import pagenews from './pages/index/news.vue'
 Vue.component('page-news',pagenews)
 
+import pagesc from './pages/index/sc.vue'
+Vue.component('page-sc',pagesc)
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

@@ -2,7 +2,7 @@
 	<view>
 		
 		<page-Home v-if="pageCur=='home'">首页</page-Home>
-		<view v-if="pageCur=='sc'">收藏</view>
+		<page-sc v-if="pageCur=='sc'">测试</page-sc>
 		<page-news v-if="pageCur=='news'">消息</page-news>
 		<page-me v-if="pageCur=='me'">我的</page-me>
 
@@ -13,17 +13,19 @@
 				</view>
 				<view :class="pageCur=='home'?'text-green':'text-gray'">首页</view>
 			</view>
-			<view class="action" @tap="TabChange" data-name="news">
-				<view class="cuIcon-cu-image">
-					<image src="/static/tabbar/xx.png"></image>
-				</view>
-				<view :class="pageCur=='xx'?'text-green':'text-gray'">消息</view>
-			</view>
+			
 			<view class="action" @tap="TabChange" data-name="sc">
 				<view class="cuIcon-cu-image">
 					<image src="/static/tabbar/sc.png"></image>
 				</view>
 				<view :class="pageCur=='sc'?'text-green':'text-gray'">收藏</view>
+			</view>
+			
+			<view class="action" @tap="TabChange" data-name="news">
+				<view class="cuIcon-cu-image">
+					<image src="/static/tabbar/xx.png"></image>
+				</view>
+				<view :class="pageCur=='news'?'text-green':'text-gray'">消息</view>
 			</view>
 			
 			<view class="action" @tap="TabChange" data-name="me">
