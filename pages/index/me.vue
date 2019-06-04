@@ -1,5 +1,13 @@
 <template>
 	<view>
+		<view class="cu-bar bg-gradual-blue search fixed">
+			<view class="content">
+				我的
+			</view>
+			<view class="action">
+			</view>
+		</view>
+		<view style="height:90rpx"></view>
 		<view class="cu-card dynamic">
 			<view class="shadow">
 				<view class="cu-list menu-avatar">

@@ -1,13 +1,14 @@
 <template>
 	<view>
-		<!--<view class="bg-white ">
-			<view class="flex justify-center">
-				<view class="bg-white padding-sm margin-xs radius">聊天</view>
-				<view class="bg-white padding-sm margin-xs radius">通知</view>
+		<view class="cu-bar bg-gradual-blue search fixed">
+			<view class="content">
+				消息
 			</view>
-		</view>-->
-
-		<view class="cu-bar search bg-white">
+			<view class="action">
+			</view>
+		</view>
+		<view style="height:90rpx"></view>
+		<view class="cu-bar search bg-white margin-top">
 			<view class="search-form round">
 				<text class="cuIcon-search"></text>
 				<input @focus="InputFocus" @blur="InputBlur" :adjust-position="false" type="text" placeholder="搜索" confirm-type="search"></input>

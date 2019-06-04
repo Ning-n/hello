@@ -1,12 +1,94 @@
 <template>
-	<cu-custom class="bg-gradual-blue search fixed">
-		<view slot="content">工作</view>
-</cu-custom>
+	<view>
+		<view class="cu-bar bg-gradual-blue search fixed">
+			<view class="content">
+				工作
+			</view>
+			<view class="action">
+			</view>
+		</view>
+		<view style="height:90rpx"></view>
 
+	<form>
+		<view class="cu-form-group margin-top">
+			<view class="title">项目编号</view>
+			<input placeholder="两字短标题" name="input"></input>
+		</view>
+		<view class="cu-form-group margin-top">
+			<view class="title">社区名称</view>
+			<input placeholder="三字标题" name="input"></input>
+		</view>
+		<view class="cu-form-group margin-top">
+			<view class="title">详细信息</view>
+			<input placeholder="统一标题的宽度" name="input"></input>
+		</view>
+		<view class="cu-form-group margin-top">
+			<view class="title">收货地址</view>
+			<input placeholder="输入框带个图标" name="input"></input>
+			<text class='cuIcon-locationfill text-orange'></text>
+		</view>
+		<view class="cu-form-group margin-top">
+			<view class="title">验证码</view>
+			<input placeholder="输入框带个按钮" name="input"></input>
+			<button class='cu-btn bg-green shadow'>验证码</button>
+		</view>
+	</form>
+
+		<view class="padding flex flex-direction">
+			<button class="cu-btn bg-blue margin-tb-xl lg">提交</button>
+		</view>
+		
+		<view class="cu-card article no-card margin-top">	
+		<view style="height:90rpx"></view>
+		</view>
+	</view>
 </template>
 
 <script>
+	export default {
+		data() {
+			return {
+				cardCur: 0,
+				swiperList: [{
+					id: 0,
+					type: 'image',
+				}],
+				dotStyle: false,
+				towerStart: 0,
+				direction: ''
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+			// cardSwiper
+			cardSwiper(e) {
+				this.cardCur = e.detail.current
+			},
+			DotStyle(e) {
+				this.dotStyle = e.detail.value
+			}
+		}
+	}
 </script>
 
 <style>
+	.mysub {
+		position: relative;
+		text-align: center;
+	}
+
+	.mysub .sub-t,
+	.mysub .sub-b {
+		min-height: 90upx;
+	}
+
+	.mysub .sub-b {
+		padding-bottom: 20upx;
+	}
+
+	.mysub .sub-t1 {
+		padding-top: 50upx;
+	}
 </style>
