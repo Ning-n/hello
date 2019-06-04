@@ -1,14 +1,8 @@
 <template>
 	<view>
-		<view class="cu-bar bg-gradual-blue search fixed">
-			<view class="content">
-				Ning
-			</view>
-			<view class="action">
-				<!--<text class="cuIcon-more"></text>-->
-			</view>
-		</view>
-		<view style="height:90rpx"></view>
+		<cu-custom bgColor="bg-gradual-blue" :isBack="false">
+			<block slot="content">Ning</block>
+		</cu-custom>
 
 		<swiper class="card-swiper" :class="dotStyle?'square-dot':'round-dot'" :indicator-dots="true" :circular="true"
 		 :autoplay="true" interval="5000" duration="500" @change="cardSwiper" indicator-color="#8799a3"

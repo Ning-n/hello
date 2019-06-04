@@ -1,33 +1,28 @@
 <template>
 	<view>
-		<view class="cu-bar bg-gradual-blue search fixed">
-			<view class="content">
-				发布订单
-			</view>
-			<view class="action">
-			</view>
-		</view>
-		<view style="height:90rpx"></view>
+		<cu-custom bgColor="bg-gradual-blue" :isBack="false">
+			<block slot="content">发布订单</block>
+		</cu-custom>
 
 	<form>
-		<view class="cu-form-group margin-top">
+		<view class="cu-form-group">
 			<view class="title">项目编号</view>
 			<input placeholder="两字短标题" name="input"></input>
 		</view>
-		<view class="cu-form-group margin-top">
+		<view class="cu-form-group ">
 			<view class="title">社区名称</view>
 			<input placeholder="三字标题" name="input"></input>
 		</view>
-		<view class="cu-form-group margin-top">
+		<view class="cu-form-group ">
 			<view class="title">详细信息</view>
 			<input placeholder="统一标题的宽度" name="input"></input>
 		</view>
-		<view class="cu-form-group margin-top">
+		<view class="cu-form-group ">
 			<view class="title">收货地址</view>
 			<input placeholder="输入框带个图标" name="input"></input>
 			<text class='cuIcon-locationfill text-orange'></text>
 		</view>
-		<view class="cu-form-group margin-top">
+		<view class="cu-form-group ">
 			<view class="title">验证码</view>
 			<input placeholder="输入框带个按钮" name="input"></input>
 			<button class='cu-btn bg-green shadow'>验证码</button>
@@ -38,9 +33,15 @@
 			<button class="cu-btn bg-blue margin-tb-xl lg">提交</button>
 		</view>
 		
-		<view class="cu-card article no-card margin-top">	
-		<view style="height:90rpx"></view>
+		<view class="jx bg-white">	
+		111
 		</view>
+		
+		
+		
+		
+		
+		<view style="height:90rpx"></view>
 	</view>
 </template>
 
@@ -90,5 +91,8 @@
 
 	.mysub .sub-t1 {
 		padding-top: 50upx;
+	}
+	.jx{
+		height: 200upx;
 	}
 </style>

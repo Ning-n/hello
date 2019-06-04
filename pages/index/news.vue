@@ -1,14 +1,11 @@
 <template>
 	<view>
-		<view class="cu-bar bg-gradual-blue search fixed">
-			<view class="content">
-				消息
-			</view>
-			<view class="action">
-			</view>
-		</view>
-		<view style="height:90rpx"></view>
-		<view class="cu-bar search bg-white margin-top">
+
+		<cu-custom bgColor="bg-gradual-blue" :isBack="false">
+			<block slot="content">消息</block>
+		</cu-custom>
+
+		<view class="cu-bar search bg-white ">
 			<view class="search-form round">
 				<text class="cuIcon-search"></text>
 				<input @focus="InputFocus" @blur="InputBlur" :adjust-position="false" type="text" placeholder="搜索" confirm-type="search"></input>
