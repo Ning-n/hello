@@ -33,8 +33,23 @@
 			<button class="cu-btn bg-blue margin-tb-xl lg">提交</button>
 		</view>
 		
-		<view class="jx bg-white">	
-		111
+		<view class="bg-white" style="text-align: center;padding: 30upx;">	
+			<view class="flex">
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">
+					<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+					<view class="text-black">凯尔</view>
+				</view>
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+			</view>
+			<view class="flex">
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+				<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+			</view>
+			
 		</view>
 		
 		
@@ -91,8 +106,5 @@
 
 	.mysub .sub-t1 {
 		padding-top: 50upx;
-	}
-	.jx{
-		height: 200upx;
 	}
 </style>
