@@ -18,7 +18,7 @@
 				<view class="cuIcon-cu-image">
 					<image src="/static/tabbar/sc.png"></image>
 				</view>
-				<view :class="pageCur=='sc'?'text-green':'text-gray'">收藏</view>
+				<view :class="pageCur=='sc'?'text-green':'text-gray'">订单</view>
 			</view>
 			
 			<view class="action" @tap="TabChange" data-name="news">

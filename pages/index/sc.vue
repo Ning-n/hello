@@ -2,7 +2,7 @@
 	<view>
 		<view class="cu-bar bg-gradual-blue search fixed">
 			<view class="content">
-				工作
+				发布订单
 			</view>
 			<view class="action">
 			</view>
